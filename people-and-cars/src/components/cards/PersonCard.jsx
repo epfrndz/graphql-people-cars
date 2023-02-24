@@ -23,6 +23,8 @@ const PersonCard = ({ person, personCars, dataActions, people }) => {
     dataActions.deletePerson(person)
   }
 
+  console.log(`${person.firstName} ${person.lastName}`)
+
   return (
     <>
       <Card
