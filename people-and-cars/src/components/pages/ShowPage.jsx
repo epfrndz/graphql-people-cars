@@ -1,4 +1,4 @@
-import { Divider, Space, Typography } from "antd";
+import { Divider, Typography } from "antd";
 import React, { useEffect, useRef } from "react";
 import { Link, useOutletContext, useParams } from "react-router-dom";
 import PersonCard from "../cards/PersonCard";
